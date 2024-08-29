@@ -1,0 +1,32 @@
+{
+  "name": "senlin-wu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "start": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gui-xie/senlin-wu.git"
+  },
+  "keywords": [
+    "senlin",
+    "wu",
+    "studio",
+    "workshop",
+    "blog"
+  ],
+  "author": "gui.xie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gui-xie/senlin-wu/issues"
+  },
+  "homepage": "https://github.com/gui-xie/senlin-wu#readme",
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  }
+}

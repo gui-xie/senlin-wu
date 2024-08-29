@@ -1,0 +1,11 @@
+version: 2
+
+build:
+  os: ubuntu-22.04
+  tools:
+    nodejs: "20"
+  commands:
+    - mkdir --parents $READTHEDOCS_OUTPUT/html/
+    - cd docs && npm ci
+    - cd docs && npm run docs:build -- --base "/$READTHEDOCS_LANGUAGE/$READTHEDOCS_VERSION/"
+    - cp --recursive docs/.vitepress/dist/* $READTHEDOCS_OUTPUT/html/
